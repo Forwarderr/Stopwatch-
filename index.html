@@ -1391,7 +1391,7 @@ function renderBookSelect() {
 
 // ── SAVE RECORD ────────────────────────────────────
 function saveRecord() {
-  if (state.elapsed < 500) {
+  if (state.elapsed < 1000) {
     toast('Track at least 1 second first ⏱');
     return;
   }
